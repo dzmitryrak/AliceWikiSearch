@@ -64,5 +64,10 @@ public class SearchSteps {
             System.out.println(list.get(i).get("Last Name"));
         }
     }
+
+    @Given("I see title {string} on the page")
+    public void iSeeTitleOnThePage(String arg0) {
+
+    }
 }
 
